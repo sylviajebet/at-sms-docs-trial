@@ -1,0 +1,24 @@
+# 🎉 Send Thank You Messages
+
+## Sample App Logic
+
+### Python Code
+```python
+recipients = ["+254712345678", "+254798765432"]
+message = "Thank you for attending our event! We appreciate your presence."
+
+response = sms.send(message, recipients)
+print(response)
+```
+
+### Node.js Code
+```js
+const options = {
+  to: ["+254712345678", "+254798765432"],
+  message: "Thank you for attending our event! We appreciate your presence.",
+};
+
+sms.send(options)
+  .then(console.log)
+  .catch(console.error);
+```

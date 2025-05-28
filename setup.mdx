@@ -1,0 +1,40 @@
+# 🔧 Setup
+
+## 1. Create an Africa's Talking Account
+- Sign up at [https://account.africastalking.com](https://account.africastalking.com)
+- Retrieve your API key and username from the dashboard
+
+## 2. Install SDK
+
+**Python:**
+```bash
+pip install africastalking
+```
+
+**Node.js:**
+```bash
+npm install africastalking
+```
+
+## 3. Initialize SDK
+
+**Python:**
+```python
+import africastalking
+
+username = "sandbox"
+api_key = "your_api_key_here"
+africastalking.initialize(username, api_key)
+
+sms = africastalking.SMS
+```
+
+**Node.js:**
+```js
+const Africastalking = require('africastalking')({
+  apiKey: 'your_api_key_here',
+  username: 'sandbox',
+});
+
+const sms = Africastalking.SMS;
+```

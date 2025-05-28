@@ -1,0 +1,28 @@
+{
+  "name": "Africa's Talking SMS Docs",
+  "favicon": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Africas_Talking_logo.svg",
+  "colors": {
+    "primary": "#F29100"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "index.mdx",
+        "setup.mdx"
+      ]
+    },
+    {
+      "group": "Use Cases",
+      "pages": [
+        "send-thank-you.mdx"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "troubleshooting.mdx"
+      ]
+    }
+  ]
+}
